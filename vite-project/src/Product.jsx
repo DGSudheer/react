@@ -9,7 +9,7 @@ function Product({title, name, price="1L", features, basics}){
             <h6>Product Description: Price is {price} 
             Details are as follows - {features}
             </h6>
-            <p>{basics}</p>
+            <p>{basics.b}</p>
         </div>
     );
 }
