@@ -1,5 +1,9 @@
-function Title(){
-    return <h4>Macbook Pro</h4>;
+function Title({title}){
+    return(
+        <div className="Title">
+            <h2 style={{textAlign: 'center'}}>{title}</h2>
+        </div>
+    );
 }
 
-export { Title }
+export default Title
